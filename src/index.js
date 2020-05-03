@@ -1,14 +1,13 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import './index.css';
-import App from './App';
+import CountryList from './countryList'
 import * as serviceWorker from './serviceWorker';
 
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    <CountryList/>
   </React.StrictMode>,
-  document.getElementById('root')
+  document.getElementById('fetch')
 );
 
 // If you want your app to work offline and load faster, you can change
